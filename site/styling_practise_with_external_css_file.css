@@ -1,0 +1,32 @@
+body {
+
+	font-size: 120% ; /*120% means that defult font_size of html document is 16px so 120% of 16px would be 19 approximately so that be our font
+	size.*/
+}
+
+
+
+
+.style {
+
+font-family: arial,helvatica,sans-serif;
+font-size: 24px; /*pixels per dot*/
+color: brown;
+text-transform: uppercase;
+text-align: center;
+font-weight: bold;
+font-style: italic;
+
+}
+.size_check_div {
+   
+font-size: 2em; /*2em means that what is the orignal font make this text twice the size of i(fonts doesnot override the sizes they get cummulative 
+in the end)*/
+
+}
+.size_check_div > div{
+	font-size: 2em;
+}
+.size_check_div > div > div{
+	font-size: 0.5em; /*reduced by half of the parent font*/
+}
